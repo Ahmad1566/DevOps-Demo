@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+nav {
+    background: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px;
+    background: #f2f2f2;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.about {
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
