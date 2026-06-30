@@ -3,13 +3,36 @@ body {
     font-family: Arial;
 }
 
-nav {
+/* nav {
     background: black;
     color: white;
     padding: 15px;
     text-align: center;
+} */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111827;
+    color: white;
+    padding: 15px 30px;
 }
 
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    cursor: pointer;
+}
+
+.logo {
+    font-weight: bold;
+}
 .hero {
     text-align: center;
     padding: 80px;
