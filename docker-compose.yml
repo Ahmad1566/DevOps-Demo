@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  frontend:
+    image: devops-demo:v1
+    container_name: devops-compose-container
+    ports:
+      - "8080:80"
